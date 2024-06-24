@@ -45,6 +45,8 @@ jobs:
           script: |
             mkdir -p /root/xiaoyuanpaotui/backend
             mkdir -p /root/xiaoyuanpaotui/frontend
+            mkdir -p /opt/myapp
+            mkdir -p /var/www/html
 
       - name: Copy backend files to server
         uses: appleboy/scp-action@master
