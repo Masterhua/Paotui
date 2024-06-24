@@ -56,7 +56,16 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SERVER_SSH_KEY }}
         source: "target/xiaoyuanfuwupingtai-0.0.1-SNAPSHOT.jar"
-        target: "/root/xiaoyuanpaotui/backend"
+        target: "/root/xiaoyuanpaotui/backend/target"
+
+    - name: Move backend jar to correct location
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SERVER_HOST }}
+        username: ${{ secrets.SERVER_USER }}
+        key: ${{ secrets.SERVER_SSH_KEY }}
+        script: |
+          mv /root/xiaoyuanpaotui/backend/target/xiaoyuanfuwupingtai-0.0.1-SNAPSHOT.jar /root/xiaoyuanpaotui/backend/
 
     - name: Copy frontend files to server
       uses: appleboy/scp-action@master
