@@ -58,7 +58,7 @@
                         <a style="text-decoration:none" class="el-button el-button--success"
                            v-if="isAuth('jiedanyuan','导入导出')"
                            icon="el-icon-download"
-                           href="http://localhost:8080/xiaoyuanfuwupingtai/upload/jiedanyuanMuBan.xls"
+                           href="http://47.250.81.47/xiaoyuanfuwupingtai/upload/jiedanyuanMuBan.xls"
                         >批量导入接单员数据模板</a>
                         &nbsp;
                         <el-upload
