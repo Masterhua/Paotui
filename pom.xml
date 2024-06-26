@@ -13,7 +13,7 @@
     <artifactId>xiaoyuanfuwupingtai</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>xiaoyuanfuwupingtai</name>
-    <description>校园服务平台</description>
+    <description>校园跑腿</description>
 
     <properties>
         <java.version>1.8</java.version>
