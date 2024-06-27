@@ -81,7 +81,7 @@
                         <a style="text-decoration:none" class="el-button el-button--success"
                            v-if="isAuth('paotuirenwu','导入导出')"
                            icon="el-icon-download"
-                           href="http://localhost:8080/xiaoyuanfuwupingtai/upload/paotuirenwuMuBan.xls"
+                           href="http://47.250.81.47:8080/xiaoyuanfuwupingtai/upload/paotuirenwuMuBan.xls"
                         >批量导入跑腿任务数据模板</a>
                         &nbsp;
                         <el-upload

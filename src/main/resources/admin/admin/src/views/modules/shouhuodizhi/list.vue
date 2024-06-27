@@ -43,7 +43,7 @@
                         <a style="text-decoration:none" class="el-button el-button--success"
                            v-if="isAuth('shouhuodizhi','导入导出')"
                            icon="el-icon-download"
-                           href="http://localhost:8080/xiaoyuanfuwupingtai/upload/shouhuodizhiMuBan.xls"
+                           href="http://47.250.81.47:8080/xiaoyuanfuwupingtai/upload/shouhuodizhiMuBan.xls"
                         >批量导入收货地址数据模板</a>
                         &nbsp;
                         <el-upload

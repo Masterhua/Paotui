@@ -1,10 +1,10 @@
 const base = {
     get() {
         return {
-            url : "http://localhost:8080/xiaoyuanfuwupingtai/",
+            url : "http://47.250.81.47:8080/xiaoyuanfuwupingtai/",
             name: "xiaoyuanfuwupingtai",
             // 退出到首页链接
-            indexUrl: 'http://localhost:8080/xiaoyuanfuwupingtai/front/index.html'
+            indexUrl: 'http://47.250.81.47:8080/xiaoyuanfuwupingtai/front/index.html'
         };
     },
     getProjectName(){
